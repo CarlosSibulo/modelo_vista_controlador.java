@@ -9,10 +9,10 @@ public class CineVista {
         boolean ejecutando = true;
 
         while (ejecutando) {
-            System.out.println("\nOpciones:");
-            System.out.println("1. Mostrar asientos");
-            System.out.println("2. Reservar asiento");
-            System.out.println("3. Salir");
+            System.out.println("\nOpciones: ");
+            System.out.println("1. Mostrar asientos: ");
+            System.out.println("2. Reservar asiento: ");
+            System.out.println("3. Salir: ");
             System.out.print("Elige una opción: ");
             int opcion = scanner.nextInt();
 
