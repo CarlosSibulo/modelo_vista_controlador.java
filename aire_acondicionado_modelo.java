@@ -3,7 +3,7 @@ public class Modelo {
     private String humedad;
 
     public Modelo() {
-        // Crear los atributos
+        
         this.temperatura = "";
         this.humedad = "";
     }
@@ -13,7 +13,7 @@ public class Modelo {
     }
 
     public void setTemperatura(String temperatura) {
-        this.temperatura = temperatura; // Corregí el uso incorrecto de los paréntesis
+        this.temperatura = temperatura; 
     }
 
     public String getHumedad() {
@@ -21,7 +21,7 @@ public class Modelo {
     }
 
     public void setHumedad(String humedad) {
-        this.humedad = humedad; // Corregí el uso incorrecto de los paréntesis
+        this.humedad = humedad; 
     }
 
     public boolean guardarDatos(String datoTemperatura, String datoHumedad) {
