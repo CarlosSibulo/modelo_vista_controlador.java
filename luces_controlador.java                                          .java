@@ -23,7 +23,7 @@ public class AplicacionLucesPorMovimiento {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Simulación de sensor de movimiento. Ingresa '1' si hay movimiento, '0' si no lo hay (Ctrl+C para salir):");
+        System.out.println("Simulación de sensor de movimiento. Ingresa '1' si hay movimiento, '0' si no lo hay (Ctrl+C para salir): ");
         while (true) {
             int movimiento = scanner.nextInt();
             boolean movimientoDetectado = movimiento == 1;
