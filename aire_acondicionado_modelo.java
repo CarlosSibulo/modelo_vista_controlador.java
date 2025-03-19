@@ -4,8 +4,8 @@ public class Modelo {
 
     public Modelo() {
         
-        this.temperatura = "";
-        this.humedad = "";
+        this.temperatura = "25";
+        this.humedad = "10";
     }
 
     public String getTemperatura() {
@@ -25,7 +25,7 @@ public class Modelo {
     }
 
     public boolean guardarDatos(String datoTemperatura, String datoHumedad) {
-        System.out.print("Conectando a la base de datos...");
+        System.out.print("Conectando a la base de datos.");
         System.out.println("Temperatura: " + datoTemperatura);
         System.out.println("Humedad: " + datoHumedad);
         boolean datoGuardado = true;
