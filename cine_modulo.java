@@ -1,4 +1,4 @@
-// Clase Cliente
+
 public class Reserva {
     private String clienteNombre;
     private String clienteEmail;
@@ -17,7 +17,7 @@ public class Reserva {
     }
 }
 
-// Clase Lugar
+
 public class Asiento {
     private int asientoNumero;
     private boolean estaReservado;
