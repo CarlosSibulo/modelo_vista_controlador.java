@@ -27,9 +27,8 @@ public class Vista {
                     System.out.print("Introduce la temperatura (°C): ");
                     String temperaturaEntrada = scanner.next();
                     Temperatura nuevaTemperatura = new Temperatura();
-                    nuevaTemperatura.setValor(temperaturaEntrada);  // Asumí que tienes un setter en la clase Temperatura
-
-                    // Aquí se debe agregar la nueva temperatura a la lista
+                    nuevaTemperatura.setValor(temperaturaEntrada);  
+                    
                     listaTemperaturas.add(nuevaTemperatura);
                     break;
                 case 3:
