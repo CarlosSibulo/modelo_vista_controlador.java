@@ -5,10 +5,10 @@ public class VistaControlLuces {
     public static void encenderLuces() {
         Scanner scanner = new Scanner(System.in);
         Noche noche = new Noche();
-        int entrada = scanner.nextInt();  // Corregido, no está claro el propósito de 'Sensor' y 'luces'
+        int entrada = scanner.nextInt();  
         
-        if (entrada == 1) {  // Supuse que '1' representaría que es de noche
-            noche.setControlLuces(true);  // Renombrado el método para hacerlo más claro
+        if (entrada == 1) {  
+            noche.setControlLuces(true);  
             System.out.println("Luces encendidas");
         } else {
             noche.setControlLuces(false);
@@ -18,9 +18,9 @@ public class VistaControlLuces {
 
     public static void apagarLuces() {
         Dia dia = new Dia();
-        int entrada = new Scanner(System.in).nextInt();  // Utilizo scanner nuevamente para tomar la entrada
+        int entrada = new Scanner(System.in).nextInt();  
         
-        if (entrada == 1) {  // Supuse que '1' representaría que es de día
+        if (entrada == 1) {  
             dia.setControlLuces(false);
             System.out.println("Luces apagadas");
         } else {
