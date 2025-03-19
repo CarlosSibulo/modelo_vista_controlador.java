@@ -25,7 +25,7 @@ public class Modulo {
     }
 
     public boolean guardarDatos(int datoPrimerNumero, int datoSegundoNumero) {
-        System.out.print("Conectando a la base de datos...");
+        System.out.print("Conectando a la base de datos.");
         System.out.print(datoPrimerNumero);
         System.out.print(datoSegundoNumero);
         boolean datosGuardados = true;
