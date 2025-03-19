@@ -11,7 +11,7 @@ public class VistaSensorMovimiento extends VBox {
 
     public void mostrarMenu(boolean movimientoDetectado) {
         Menu menu = new Menu();
-        int opcionMovimiento = menu.nextInt(); // Asumí que 'menu' es una instancia de la clase Menu que lee opciones
+        int opcionMovimiento = menu.nextInt();
         activarSensor();
         
         while (true) {
@@ -24,6 +24,5 @@ public class VistaSensorMovimiento extends VBox {
     }
 
     private void activarSensor() {
-        // Lógica para activar el sensor (puedes completar esto dependiendo de la implementación de tu sensor)
     }
 }
