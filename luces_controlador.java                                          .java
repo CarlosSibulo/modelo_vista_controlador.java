@@ -8,8 +8,8 @@ public class ControladorLuces {
     }
 
     public void actualizarEstadoLuces(boolean movimientoDetectado) {
-        modelo.setEstadoLuz(movimientoDetectado); // Cambia el estado de las luces según el sensor
-        vista.mostrarEstadoLuz(modelo.isLuzEncendida()); // Actualiza la vista
+        modelo.setEstadoLuz(movimientoDetectado); 
+        vista.mostrarEstadoLuz(modelo.isLuzEncendida()); 
     }
 }
 
