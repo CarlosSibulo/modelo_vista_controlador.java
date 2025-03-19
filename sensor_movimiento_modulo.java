@@ -10,7 +10,7 @@ public class ModeloSensorMovimiento {
 
     public class MenuSensorMovimiento {
         Menu menu = new Menu();
-        String movimiento = scanner.nextLine(); // Asumiendo que 'scanner' es el que se usará para leer
+        String movimiento = scanner.nextLine(); 
         activarSensor();
 
         private boolean movimientoDetectado;
@@ -23,9 +23,7 @@ public class ModeloSensorMovimiento {
             this.movimientoDetectado = movimientoDetectado;
         }
 
-        // Método para activar el sensor, asumiendo que se debe implementar
         private void activarSensor() {
-            // Implementación para activar el sensor
         }
     }
 }
