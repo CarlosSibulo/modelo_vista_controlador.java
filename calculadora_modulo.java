@@ -3,7 +3,7 @@ public class Modulo {
     private int segundoNumero;
 
     public Modelo() {
-        // Crear los atributos
+        
         this.primerNumero = 0;
         this.segundoNumero = 0;
     }
