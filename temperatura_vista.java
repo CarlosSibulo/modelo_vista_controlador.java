@@ -7,15 +7,15 @@ public class Vista {
     public Vista() {
         Controlador controlador = new Controlador();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bienvenido al sistema de control de temperatura.");
+        System.out.println("Bienvenido al sistema de control de temperatura. ");
         boolean ejecutando = true;
         listaTemperaturas = new ArrayList<>();
 
         while (ejecutando) {
-            System.out.println("\nOpciones:");
-            System.out.println("1. Mostrar temperatura");
-            System.out.println("2. Registrar temperatura (°C)");
-            System.out.println("3. Salir");
+            System.out.println("\nOpciones: ");
+            System.out.println("1. Mostrar temperatura: ");
+            System.out.println("2. Registrar temperatura (°C): ");
+            System.out.println("3. Salir: ");
             System.out.print("Elige una opción: ");
             int opcion = scanner.nextInt();
 
